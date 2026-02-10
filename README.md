@@ -34,3 +34,7 @@ After preprocessing the data, I created a table detailing each word frequency an
 ### 3 Results
 
 It has been shown through Kendall rank correlation that there exists an inverse relationship between the word frequency and their length, which is present in both languages in this experiment. Hence, the Zipf’s Law of Abbreviation holds for both languages in this domain and register, which is not surprising considering that there were multiple studies done to test this law across many language families and writing systems, and so far there are no deviations from this universal tendency. (Bentz & Ferrer-I-Cancho, 2016.)
+
+### 4 Code
+
+The code to the experiment is available online at: https://github.com/Thanaritt-K/Zipfs-Law-Exp
