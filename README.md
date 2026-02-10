@@ -31,10 +31,10 @@ For Thai, a CNN-based tokenizer (Chormai et al., 2019) was used for tokenization
 
 After preprocessing the data, I created a table detailing each word frequency and their word length; these were used as data points to investigate the association between the frequency of a word and its length. For this purpose, the Kendall rank correlation (‌Conover, 1999; Ferrer-i-Cancho et al., 2016) was used to capture non-linear dependencies.
 
-### 3 Results
+## 3 Results
 
 It has been shown through Kendall rank correlation that there exists an inverse relationship between the word frequency and their length, which is present in both languages in this experiment. Hence, the Zipf’s Law of Abbreviation holds for both languages in this domain and register, which is not surprising considering that there were multiple studies done to test this law across many language families and writing systems, and so far there are no deviations from this universal tendency. (Bentz & Ferrer-I-Cancho, 2016.)
 
-### 4 Code
+## 4 Code
 
 The code to the experiment is available online at: https://github.com/Thanaritt-K/Zipfs-Law-Exp
